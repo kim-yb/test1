@@ -3,10 +3,15 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include "calc.h"
 using namespace std;
 int main()
 {
-	cout << "First program \n";
+	cout << "Second program \n";
+	cout << "add "<< add(2, 4) << endl;
+	cout << "sub" << sub(2, 4) << endl;
+	cout << "mul" << mul(2, 4) << endl;
+
 	getchar();
 
     return 0;
