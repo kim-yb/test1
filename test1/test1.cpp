@@ -2,10 +2,13 @@
 //
 
 #include "stdafx.h"
-
-
+#include <iostream>
+using namespace std;
 int main()
 {
+	cout << "First program \n";
+	getchar();
+
     return 0;
 }
 
